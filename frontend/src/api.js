@@ -1,5 +1,5 @@
-import axios from "axios"
-import { ACCESS_TOKEN } from "./constants"
+import axios from "axios";
+import { ACCESS_TOKEN } from "./constants";
 
 // Import URL from .env
 const api = axios.create({
@@ -21,4 +21,4 @@ api.interceptors.request.use(
     }
 )
 
-export default api
+export default api;

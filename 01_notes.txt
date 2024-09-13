@@ -5,14 +5,23 @@
 }
 
 
-https://www.youtube.com/watch?v=c-QsfbznSXI
-Min 1:16
+
+####################################
+    https://www.youtube.com/watch?v=c-QsfbznSXI
+    Min 1:16
+
+    GIT
+    git remot set-url origin https://<token>@github.com/username/repo
+
+    FORMAT DOC VSCODE:
+    ctrl + shift + p
+
+
 
 
 
 ####################################
 NPM
-
     > npm create vite@latest FOLDERNAME -- --template react
     > npm install axios react-router-dom jwt-decode
 
@@ -21,23 +30,28 @@ NPM
     > npm run dev
 
 
+
+
+####################################
 ORDER:
+    Backend:
+        main settings.py
 
-Backend:
-    main settings.py
-
-Frontend:
-    App.jsx
-    .env
-    src
-        constants.js
-        api.js 
-        componentes
-            protectedRoute.jsx
-        pages
-            login
-            register
-            home
-            notfound
-    
-    app.jsx
+    Frontend:
+        App.jsx
+        .env
+        src
+            constants.js
+            api.js 
+            componentes
+                protectedRoute.jsx
+            pages
+                login
+                register
+                home
+                notfound
+        
+        app.jsx
+        notfound
+        components  > forms
+        styles      > forms.css
