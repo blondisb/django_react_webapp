@@ -1,0 +1,40 @@
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyNjE2OTg0MSwiaWF0IjoxNzI2MDgzNDQxLCJqdGkiOiJiOTZiMTE5NWFiZjQ0YTcxYmYwOWM1YjFjNTkyOTdmYyIsInVzZXJfaWQiOjF9.uAyVlk2H-X0198g95Zsb8IukoSrRMEUoyjIApKqGjRg",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI2MDg1MjQxLCJpYXQiOjE3MjYwODM0NDEsImp0aSI6ImFkODNiNzhmYzViNjRlYzliZDkwNzFhYjJhNjJhNjM2IiwidXNlcl9pZCI6MX0.zxYX51Da3NBCqdoww0JnFAuJx-wdyOFQXwAldf4IjAY"
+}
+
+
+https://www.youtube.com/watch?v=c-QsfbznSXI
+Min 52:!0
+
+
+
+####################################
+NPM
+
+    > npm create vite@latest FOLDERNAME -- --template react
+    > npm install axios react-router-dom jwt-decode
+
+
+
+ORDER:
+
+Backend:
+    main settings.py
+
+Frontend:
+    App.jsx
+    .env
+    src
+        constants.js
+        api.js 
+        componentes
+            protectedRoute.jsx
+        pages
+            login
+            register
+            home
+            notfound
+    
+    app.jsx
