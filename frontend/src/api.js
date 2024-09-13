@@ -1,5 +1,5 @@
 import axios from "axios"
-import { ACCES_TOKEN } from "./constants"
+import { ACCESS_TOKEN } from "./constants"
 
 // Import URL from .env
 const api = axios.create({

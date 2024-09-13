@@ -6,7 +6,7 @@
 
 
 https://www.youtube.com/watch?v=c-QsfbznSXI
-Min 1:13
+Min 1:16
 
 
 
@@ -16,6 +16,9 @@ NPM
     > npm create vite@latest FOLDERNAME -- --template react
     > npm install axios react-router-dom jwt-decode
 
+    Run Frontend
+    > npm install
+    > npm run dev
 
 
 ORDER:

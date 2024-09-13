@@ -9,7 +9,7 @@ import ProtectedRoute from "./components/ProtectedRoute"
 function Logout() {
   localStorage.clear()
   return <Navigate to="/login" />
-};
+}
 
 //It is important to have memeory clean when an user is registering, otherwise, can be troubles with old tokens
 function RegisterAndLogout() {
@@ -18,12 +18,23 @@ function RegisterAndLogout() {
 }
  
 function App() {
-  return (
+  // You can't access to home component, unless you've access to token
+  return ( 
     <BrowserRouter>
       <Routes>
+
         <Route
-          path="/">
-        </Route>
+          path="/"
+          element={
+            <ProtectedRoute>
+              <Home />
+            </ProtectedRoute>
+          }
+        />
+        <Route  path="/login" element={<Login />} />
+        <Route  path="/register" element={<RegisterAndLogout />} />
+        <Route  path="*" element={<NotFound />} />
+
       </Routes>
     </BrowserRouter>
   )
