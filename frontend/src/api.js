@@ -5,7 +5,8 @@ const apiUrl = "/choreo-apis/djangoreact001/backend/v1";
 
 // Import URL from .env
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
+//   baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
+  baseURL: apiUrl,
   // baseURL: process.env.VITE_API_URL,
   // ? import.meta.env.VITE_API_URL : apiUrl,
 });
