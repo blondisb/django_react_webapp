@@ -3,3 +3,7 @@ venv0102/
 venv_asus/
 venv_dell/
 node_modules/
+backend_pj/.env
+backend_pj/db.sqlite3
+frontend/.env
+.env
