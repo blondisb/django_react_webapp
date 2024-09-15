@@ -78,7 +78,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGENS = True
 CORS_ALLOW_CREDENTIALS = True
 # CORS_ORIGIN_WHITELIST = ('http://localhost',)
-# CORS_ALLOWED_ORIGINS = [    "http://localhost:5137",  ]# Frontend URL
+CORS_ALLOWED_ORIGINS = [    "http://localhost:5173", "http://127.0.0.1:5173", ]# Frontend URL
 # Allow specific HTTP methods
 # CORS_ALLOW_METHODS = [
 #     'GET',
